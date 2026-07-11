@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Algmz",
+  "version": "0.1.0",
+  "identifier": "com.algmz.app",
+  "build": {
+    "frontendDist": "../ui-shell"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Algmz",
+        "width": 1100,
+        "height": 760,
+        "minWidth": 360,
+        "minHeight": 560
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all"
+  }
+}
